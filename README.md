@@ -16,22 +16,27 @@ Meals on Wheels is a dynamic, serverless food truck website powered entirely by 
 
 ---
 
-## 🧱 Tech Stack  | Layer        | Tech            |
-|--------------|----------------------------------|
-| Frontend     | HTML, CSS, JavaScript (vanilla)  |
-| Backend      | AWS Lambda (Python 3.12)         |
-| Infra as Code| Terraform                        |
-| Hosting      | S3 + CloudFront                  |
-| API Gateway  | HTTP API                         |
-| Data Source  | Google Sheets                    |
+## 🧱 Tech Stack  
+
+| Layer           | Tech Stack                               |
+|------------------|-----------------------------------------|
+| Frontend         | HTML, CSS, JavaScript (vanilla)         |
+| Backend          | AWS Lambda (Python 3.12)                |
+| Infra as Code    | Terraform                               |
+| Hosting          | AWS S3 + CloudFront                     |
+| API Gateway      | HTTP API (via API Gateway)              |
+| Data Source      | Google Sheets                           |
+
 
 --- 
 
 
 ## 📂 Project Structure  
 
-Terraform_p1/ ├── images/
-│   └── logo.png 
+```bash
+Terraform_p1/
+├── images/
+│   └── logo.png
 ├── lambda_src/
 │   ├── handler.py
 │   └── lambda.zip
@@ -42,7 +47,8 @@ Terraform_p1/ ├── images/
 ├── variables.tf
 ├── .gitignore
 ├── .terraform.lock.hcl
-├── README.md
+└── README.md
+```
 
 --- 
 
@@ -80,7 +86,8 @@ Terraform_p1/ ├── images/
 --- 
 
 
-## ✍️ Author  **Meghansh Khanna**  Cloud Enthusiast | Network Automation Learner | Serverless Explorer   
+## ✍️ Author  **Meghansh Khanna**  
+Cloud Enthusiast | Network Automation Learner | Serverless Explorer   
 [LinkedIn](https://www.linkedin.com/in/meghansh-khanna-6240501b0/) • [GitHub](https://github.com/megh18497new)  
 
 ---
