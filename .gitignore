@@ -1,0 +1,19 @@
+# Local environment settings
+.env
+terraform.tfvars
+
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Crash logs
+crash.log
+
+# Terraform core directories
+.terraform/
+
+# IDE files (optional)
+.vscode/
+.idea/
+*.swp
+.DS_Store
