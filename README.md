@@ -6,13 +6,14 @@ Meals on Wheels is a dynamic, serverless food truck website powered entirely by 
 
 ---
 
-## 🚀 Features  
-✅ Fully static site hosted on **S3** and delivered via **CloudFront**
-🛠 Infrastructure provisioned using **Terraform**
-🧠 Menu data synced from **Google Sheets** to **menu.json** in S3
-🐍 Backend logic via **AWS Lambda** (Python)
-🔐 API Gateway integrated with Lambda (secured optionally)
-🌑 Clean, dark-mode responsive UI 
+## ✨ Features
+
+- ✅ **Live Menu Updates** — Edit a Google Sheet, and the menu on the website updates instantly.
+- 🚀 **Fully Serverless** — No EC2, no backend infra. Uses AWS Lambda + API Gateway + S3 + CloudFront.
+- 🧱 **Infrastructure as Code** — Terraform automates everything: S3, Lambda, IAM, CloudFront, API Gateway.
+- ⚡ **CDN Backed** — The static site is served via AWS CloudFront for high availability and low latency.
+- 🔐 **Decoupled Architecture** — The frontend fetches live data from a secure API, not bundled files.
+- 🧪 **Minimal Stack** — Built with pure HTML, CSS, JavaScript (no frameworks), and Python for Lambda.
 
 ---
 
